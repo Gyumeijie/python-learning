@@ -1,8 +1,15 @@
-# Intro
+# Introduction
 Learning Python. 
 
-# Packaging Tool
+## Packaging Tool
  
-`Pipfile` <----> `requirements.txt`
+`Pipfile` <----replace----> `requirements.txt`
 
-`pipenv` <----> `pip`
+`pipenv` <----replace----> `pip`
+
+### Packages Categories
+1. development packages
+> pipenv install --dev package
+
+2. production packages
+> pipenv install package
