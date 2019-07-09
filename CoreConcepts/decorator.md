@@ -47,6 +47,7 @@ def decorator(x, y, z):
       return func(*args, **kwargs)
    return wrapper
   return decorate
+```
 
 ```python
 @decorator(x, y, z)
